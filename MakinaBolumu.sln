@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakinaBolumu_Ders2", "Makin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakinaBolumu_Ders3", "MakinaBolumu_Ders3\MakinaBolumu_Ders3.csproj", "{DDA9C87A-1D80-4A86-B8E0-BAFBCC26E316}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakinaBolumu_Ders4", "MakinaBolumu_Ders4\MakinaBolumu_Ders4.csproj", "{60BEBD63-6D75-40A6-8B45-A9DD3077BC72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DDA9C87A-1D80-4A86-B8E0-BAFBCC26E316}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDA9C87A-1D80-4A86-B8E0-BAFBCC26E316}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDA9C87A-1D80-4A86-B8E0-BAFBCC26E316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60BEBD63-6D75-40A6-8B45-A9DD3077BC72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60BEBD63-6D75-40A6-8B45-A9DD3077BC72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60BEBD63-6D75-40A6-8B45-A9DD3077BC72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60BEBD63-6D75-40A6-8B45-A9DD3077BC72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

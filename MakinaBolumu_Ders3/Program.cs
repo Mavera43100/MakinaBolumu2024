@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.Runtime.InteropServices;
 
 namespace MakinaBolumu_Ders3
 {
@@ -20,7 +21,7 @@ namespace MakinaBolumu_Ders3
             val1 = val2 * val3;
             val1 = val1 * 10;
 
-           // Console.WriteLine("Val1 değişkeninin son değeri : " + val1);
+            // Console.WriteLine("Val1 değişkeninin son değeri : " + val1);
 
             //int 1value = 100; // değişken adı rakamla başlayamaz.
             //int birinci.value = 200;// değişken adı nokta içeremez.
@@ -31,7 +32,7 @@ namespace MakinaBolumu_Ders3
 
 
             // değişken adları büyük/küçük harf duyarlıdır. Aşağıdaki 2 değişken birbirinden farklıdır.
-           
+
             //int Val1 = 1;
             //int VAL1 = 2;
 
@@ -41,15 +42,34 @@ namespace MakinaBolumu_Ders3
 
 
             // önceden tanımlanmış bir değişken tekrar tanımlanamaz. Aşağıdaki gibi. İkiside yukarıda tanımlı. Değişken tipleri farklı ve de değerleri de farklı olsa dahi.
-           // double Val1 = 8;
-           // float VAL1 = 10;
+            // double Val1 = 8;
+            // float VAL1 = 10;
+
+            //değişkenelere tipine uygun veri aktarılmalıdır.
+            //kullanacağımız veriye uygun değişken tipi belirlemeliyiz.
+
+            int value1 = 50000;
+            long value2 = 12345678912;
+            double maas = 55000.89;
+            //sayıların sonundaki;
+                // f = float olduğunu,
+                // d = double olduğunu,
+                // m ise decimal olduğunu belirtir.
+                //belirtilmezse varsayılan olarak double kabul edilir.
+
+            Console.WriteLine("sayının tipi : " + (28500.12345678).GetType());
+            Console.WriteLine("sayının tipi : " + (28500.45f).GetType());
+            Console.WriteLine("sayının tipi : " + (28500.45m).GetType());
+
+
+
+            //bir okul sınıfında en fazla 200 kişi olabilir.
+             
 
 
 
 
             Console.ReadLine(); // klavyeden enter tuşu basılana kadar bekler...
-
-             
 
         }
     }
