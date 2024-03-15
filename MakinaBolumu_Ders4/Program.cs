@@ -12,7 +12,7 @@ namespace MakinaBolumu_Ders4
         {
 
             // klavyeden öğrenci no, ad soyad, vize ve final notlarını alıp ortalamayı hesaplar.
-            Console.Write("Öğrenci No Giriniz");
+            Console.Write ("Öğrenci No Giriniz");
             string ogrno = Console.ReadLine();
 
             Console.Write("Ad Soyad Giriniz");
@@ -22,13 +22,13 @@ namespace MakinaBolumu_Ders4
             float vize = Convert.ToSingle(Console.ReadLine());
 
             Console.Write("Final Notu : ");
-            float final = Convert.ToSingle(Console.ReadLine());
+            double final = Convert.ToSingle(Console.ReadLine());
 
-            float ortalama = vize * 0.40f + final * 0.60f;
+            double ortalama = vize * 0.40f + final * 0.60f;
             Console.WriteLine("Sınav Ortalaması : " + ortalama);
             Console.WriteLine("Sınav Ortalaması {0}",ortalama);
 
-
+         
 
         }
     }
